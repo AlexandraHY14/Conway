@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-image: url("../images/bgTextura.png");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: #69503c;
+}
+
+.logo {
+  width: 125px;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+
+.banner-img {
+  background-image: url("../images/banner.jpeg");
+  height: 500px;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.banner .container {
+  justify-content: space-around;
+}
+
+.btn-area {
+  width: 100%;
+  padding: 50px;
+}
+
+.img-area {
+  padding-left: 200px;
+  width: 100%;
+}
+
+.img-area .banner-img {
+  width: 500px;
+  height: 500px;
+}
+
+h1 {
+  font-family: 'Agrandir Regular';
+  font-size: 50px;
+  width: 45%;
+  color: #69503c;
+  margin-bottom: 160px;
+}
+
+.banner button {
+  background-color: #69503c;
+  color: #fffce3;
+  border-radius: 20px;
+  border-style: none;
+  width: 25%;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about .container {
+  justify-content: space-between;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 28%;
+}
+
+.card-area {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 30%;
+  align-items: flex-end;
+  padding-right: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 100%;
+  border-radius: 50px;
+  background-color: #ffff;
+  box-shadow: 15px 15px #69503c;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.card img {
+  width: 60%;
+}
+
+#satisfacao-img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+#agilidade-img {
+  width: 70%;
+  padding-bottom: 5px;
+}
+
+.card p {
+  width: 50%;
+}
+p {
+  color: #69503c;
+  font-size: large;
+  font-family: 'Poppins';
+}
+
+.about h1 {
+  padding-left: 50px;
+  width: 20%;
+  margin-bottom: 0px;
+}
+
+.busway {
+  flex-direction: column;
+}
+
+.busway p {
+  width: 50%;
+}
+
+.busway h1 {
+  margin-bottom: 20px;
+}
+
+hr {
+  color: #69503c;
+}
+
+#busway-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 50px;
+}
+
+
+/* Alarme */
+#alerta {
+  position: absolute;
+  right: 0px;
+}
+
+.mensagem-alarme {
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  height: 80px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mensagem-alarme h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.mensagem-alarme .informacao {
+  margin: 10px;
+}
+
+.alarme-sino {
+  width: 30%;
+  height: 30px;
+  background-image: url('https://media4.giphy.com/media/cL4VwGyAEP76FQV4vs/giphy.gif?cid=6c09b9528c6313ced515d978355db4b287dd96efb71aaded&rid=giphy.gif&ct=s.gif');
+  background-size: cover;
+  padding-bottom: 50px;
+  margin-bottom: 30%;
+}
+
+.informacao{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-color:#69503c;
+  color: #fffce3;
+  height: 150px;
+  width: 300px;
+  border-radius: 20%;
+  font-size: 4vh;
+  font-weight: bold;
+}

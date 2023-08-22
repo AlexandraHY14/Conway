@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/helpdesk.css">
+    <link rel="icon" href="images/icon.png" />
+    <title>Suporte</title>
+    <script src="https://kit.fontawesome.com/89d28f01ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="div_caixona">
+        <img src="images/logo.png" alt="" class="logoV1" id="main" />
+        <span class="suporte">Suporte</span>
+        <div class="headerV1">
+            <div class="containerV1">
+                <ul>
+                    <li><a href="index.html"> INÍCIO </a></li>
+                    <li><a href="index.html#contato"> CONTATO </a></li>
+                    <li><a href="cadastro.html"> CADASTRO </a></li>
+                    <li><a href="index.html"> VOLTAR </a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="meio">
+        <div class="caixona">
+            <span class="perguntasV1">Perguntas Frequentes</span>
+            <div class="perguntas">
+                <ul>
+                    <li>
+                        <details>
+                            <summary>Qual a diferença entre a ConWay e o Busway?</summary>
+                            ConWay é uma empresa de tecnologia que visa auxiliar continuamente suas parceiros através
+                             da transformação digital.
+                            Busway é um dos diversos produtos desenvolvidos pela ConWay, focado no monitoramento do fluxo
+                             de passageiros em viações de transporte público e privado.
+                        </details>
+                    </li>
+                    
+                    <li>
+                        <details>
+                            <summary>O que o Busway oferece a quem o compra?</summary>
+                            Um sistema completo para análise do fluxo de passageiros dentro de linhas de ônibus, por
+                             meio de diversas estatísticas, gráficos e alertas, permitindo a melhor previsão de incidentes
+                             e alocação de recursos.
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Como é feito o monitoramento das viagens?</summary>
+                            Por meio de sensor Busway, que detecta a entrada e saída de passageiros. Enviamos sensores
+                             para todos os clientes, de acordo com as especificações informadas. 
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Não consigo me cadastrar, o que devo fazer?</summary>
+                            Entre em contato com a ConWay através de nossa central de serviços unificada, clicando no
+                             <span id="botaoAoLado" onmouseenter="focarNoBotao(true)" onmouseleave="focarNoBotao(false)">botão ao lado.</span>
+                        </details>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="texto"><span>Caso já possua uma conta cadastrada, e as perguntas e respostas ao lado não atendam a
+                suas
+                necessidades, contate-nos apertando no botão logo a baixo.</span>
+                <div class="botao">
+                    <a href="https://conway-inc.on.spiceworks.com/portal" target="_blank" id="linkBotao">
+                        <button><b>Suporte Técnico</b></button>
+                    </a>
+                </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
+<script>
+    function focarNoBotao(focar){
+        linkBotao.focus();
+    }
+</script>
